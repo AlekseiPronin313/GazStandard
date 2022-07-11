@@ -1,10 +1,11 @@
 .swiper__title {
-  max-width: 904px;
+  max-width: 100%;
   position: absolute;
   color: #ffffff;
   font-weight: 500;
   font-size: 60px;
   line-height: 140%;
   margin: 0 auto;
-  top: 228px;
+  text-align: center;
+  top: 180px;
 }
