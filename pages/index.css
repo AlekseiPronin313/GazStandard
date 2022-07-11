@@ -2,7 +2,8 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/_top/header_top.css);
+@import url(../blocks/header/__top/header__top.css);
+@import url(../blocks/header/swiper/swiper.css);
 @import url(../blocks/header/_logo/header_logo1.css);
 @import url(../blocks/header/_logo/header_logo2.css);
 @import url(../blocks/header/_logo/header_logo3.css);
@@ -72,4 +73,3 @@
 @import url(../blocks/footer/_icon/footer_icon.css);
 @import url(../blocks/main/products/_button/products_button.css);
 @import url(../blocks/main/products/_img/-png/products_img-png.css);
-@import url(../blocks/header/swiper/swiper.css);
