@@ -1,8 +1,8 @@
 .header_top {
-    max-width: 1120px;
-    max-height: 51px;
-    display: flex;
-    z-index: 4;
-    margin-top: 29px;
-    position: absolute;
+  max-width: 1120px;
+  max-height: 51px;
+  display: flex;
+  z-index: 4;
+  margin-top: 29px;
+  position: absolute;
 }
