@@ -1,0 +1,9 @@
+.page {
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: "Inter", Arial, sans-serif;
+}

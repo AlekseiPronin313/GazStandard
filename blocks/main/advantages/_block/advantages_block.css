@@ -1,0 +1,30 @@
+.advantages_block {
+    width: 375px;
+    height: 168px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 1px solid #C5DAEB ;
+    border-bottom: 1px solid #C5DAEB;
+}
+
+.advantages_block:nth-last-of-type(1) {
+    border-bottom: none;
+    border-right: none;
+}
+
+.advantages_block:nth-last-of-type(4) {
+    border-right: none;
+}
+
+.advantages_block:nth-last-of-type(3) {
+    border-bottom: none;
+}
+
+.advantages_block:nth-last-of-type(2) {
+    border-bottom: none;
+}
+
+.advantages_block:nth-last-of-type(7) {
+    border-right: none;
+}

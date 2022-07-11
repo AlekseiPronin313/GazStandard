@@ -1,0 +1,8 @@
+.services {
+    height: 1564px;
+    max-width: 992px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 72px 0;
+}

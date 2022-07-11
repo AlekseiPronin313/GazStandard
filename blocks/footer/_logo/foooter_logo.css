@@ -1,0 +1,7 @@
+.foooter_logo {
+    margin: 16px 26px 0 0;
+}
+
+.foooter_logo:first-of-type {
+    margin: 0;
+}

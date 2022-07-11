@@ -1,0 +1,9 @@
+.services_background {
+    height: 100%;
+    width: 261px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 16px;
+}

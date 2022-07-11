@@ -1,0 +1,5 @@
+.advantages_grid {
+    max-width: 1125px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+}

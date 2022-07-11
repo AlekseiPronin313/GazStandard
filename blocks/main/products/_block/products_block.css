@@ -1,0 +1,24 @@
+.products_block {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.products_block:hover {
+    cursor: pointer;
+    border-radius: 16px;
+    color: #fff;
+    background-color: rgba(23, 121, 192,.75);
+}
+
+.products_block:hover .products_text {
+    color: #fff;
+}
+
+.products_block:hover .products_button {
+    opacity: 1;
+}

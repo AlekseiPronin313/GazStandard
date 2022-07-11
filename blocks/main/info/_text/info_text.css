@@ -1,0 +1,10 @@
+.info_text {
+    max-width: 576px;
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 32px;
+    margin: 72px 0 0 704px;
+    box-shadow: 0 0 90px 5px rgba(0, 0, 0, .3);
+    z-index: 3;
+}

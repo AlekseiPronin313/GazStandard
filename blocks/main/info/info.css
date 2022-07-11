@@ -1,0 +1,7 @@
+.info {
+    width: 1440px;
+    background: #F7F7F7;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}

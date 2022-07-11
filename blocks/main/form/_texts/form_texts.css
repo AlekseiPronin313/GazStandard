@@ -1,0 +1,9 @@
+.form_texts {
+    max-width: 736px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #5C5C5C;
+    margin: 26px 0 0 0;
+    text-align: center;
+}

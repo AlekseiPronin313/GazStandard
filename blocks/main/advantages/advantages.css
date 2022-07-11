@@ -1,0 +1,6 @@
+.advantages {
+    max-width: 1440px;
+    display: grid;
+    justify-items: center;
+    margin: 0 auto;
+}

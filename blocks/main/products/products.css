@@ -1,0 +1,8 @@
+.products {
+    max-width: 1440px;
+    background: #F7F7F7;
+    padding: 72px 156px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

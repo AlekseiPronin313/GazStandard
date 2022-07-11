@@ -1,0 +1,9 @@
+.header_buttons {
+    max-width: 191px;
+    max-height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    margin-left: 36px;
+}

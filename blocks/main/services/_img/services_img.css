@@ -1,0 +1,11 @@
+.services_img {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../../images/services/Rectangle.svg);
+    background-color: #FF9915;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 36px;
+    margin-left: 16px;
+    margin-bottom: -8px;
+}
