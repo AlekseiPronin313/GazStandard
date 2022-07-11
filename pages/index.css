@@ -73,3 +73,6 @@
 @import url(../blocks/footer/_icon/footer_icon.css);
 @import url(../blocks/main/products/_button/products_button.css);
 @import url(../blocks/main/products/_img/-png/products_img-png.css);
+@import url(../blocks/header/swiper/__text/swiper__text.css);
+@import url(../blocks/header/swiper/__button/swiper__button.css);
+@import url(../blocks/header/swiper/__title/swiper__title.css);
