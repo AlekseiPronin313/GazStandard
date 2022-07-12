@@ -1,11 +1,16 @@
 .swiper__button {
     position: absolute;
-    width: 256px;
-    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 253px;
+    height: 45px;
     background: rgba(0, 0, 0, 0);
     color: #fff;
     border: 2px solid #fff;
     border-radius: 16px;
     cursor: pointer;
     bottom: 248px;
+    text-decoration: none;
+    z-index: 2;
 }

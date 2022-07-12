@@ -76,3 +76,7 @@
 @import url(../blocks/header/swiper/__text/swiper__text.css);
 @import url(../blocks/header/swiper/__button/swiper__button.css);
 @import url(../blocks/header/swiper/__title/swiper__title.css);
+@import url(../blocks/header/swiper/__img/swiper__img.css);
+@import url(../blocks/header/swiper/swiper-slide/swiper-slide.css);
+@import url(../blocks/header/swiper/mySwiper2/mySwiper2.css);
+@import url(../blocks/header/swiper/mySwiper/mySwiper.css);

@@ -1,0 +1,29 @@
+.mySwiper {
+  max-width: 1120px;
+  max-height: 96px;
+  position: absolute;
+  bottom: 10px;
+  box-sizing: border-box;
+}
+
+.mySwiper .swiper-slide {
+  height: 94px;
+  position: relative;
+  border-radius: 16px;
+}
+
+.mySwiper .swiper-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+}
+
+.mySwiper .swiper-slide-thumb-active::before {
+  content: "";
+  background-color: rgba(23, 121, 192, 0.8);
+}

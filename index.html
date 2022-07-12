@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="pages/index.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>GazStandard</title>
 </head>
 
@@ -33,51 +33,49 @@
                     <div class="swiper-slide">
                         <img src="./images/Photo4.png" />
                         <h1 class="swiper__title">Метрология</h1>
-                        <button class="swiper__button">Узнать больше</button>
+                        <a class="swiper__button" href="#1">Узнать больше</a>
                     </div>
                     <div class="swiper-slide">
                         <img src="./images/header_fon.png" />
                         <h1 class="swiper__title">Аттестация коммерческих <br> узлов учета газа</h1>
-                        <button class="swiper__button">Узнать больше</button>
+                        <a class="swiper__button" href="#2">Узнать больше</a>
                     </div>
                     <div class="swiper-slide">
                         <img src="./images/Photo3.jpg" />
                         <h1 class="swiper__title">Услуги по тех обслуживанию общедомового газового оборудования</h1>
-                        <button class="swiper__button">Узнать больше</button>
+                        <a class="swiper__button" href="#5">Узнать больше</a>
                     </div>
                     <div class="swiper-slide">
                         <img src="./images/Photo2.jpg" />
-                        <h1 class="swiper__title">Проектирование инженерных систем</h1>
-                        <button class="swiper__button">Узнать больше</button>
+                        <h1 class="swiper__title">Проектирование <br> инженерных систем</h1>
+                        <a class="swiper__button" href="#3">Узнать больше</a>
                     </div>
                     <div class="swiper-slide">
                         <img src="./images/Photo1.jpg" />
                         <h1 class="swiper__title">Газификация и реконструкция</h1>
-                        <button class="swiper__button">Узнать больше</button>
+                        <a class="swiper__button" href="#4">Узнать больше</a>
                     </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
             </div>
-            <div thumbsSlider="" class="swiper mySwiper important">
-                <div class="swiper-wrapper swiper__flex">
-                    <div class="swiper-slide swiper__important">
+            <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ">
                         <img class="swiper__img" src="./images/Photo4.png"/>
                         <p class="swiper__text">Поверка/замена</p>
                     </div>
-                    <div class="swiper-slide swiper__important">
+                    <div class="swiper-slide">
                         <img class="swiper__img" src="./images/header_fon.png" />
                         <p class="swiper__text">Аттестация</p>
                     </div>
-                    <div class="swiper-slide swiper__important">
+                    <div class="swiper-slide">
                         <img class="swiper__img" src="./images/Photo3.jpg" />
-                        <p class="swiper__text">Техническое обслуживание</p>
+                        <p class="swiper__text">Техническое <br>обслуживание</p>
                     </div>
-                    <div class="swiper-slide swiper__important">
+                    <div class="swiper-slide">
                         <img class="swiper__img" src="./images/Photo2.jpg" />
                         <p class="swiper__text">Проектирование</p>
                     </div>
-                    <div class="swiper-slide swiper__important">
+                    <div class="swiper-slide">
                         <img class="swiper__img" src="./images/Photo1.jpg" />
                         <p class="swiper__text">Строительство</p>
                     </div>
@@ -147,10 +145,10 @@
                 </div>
             </section>
             <section class="services">
-                <h2 id="#" class="services_title">Услуги</h2>
+                <h2 class="services_title">Услуги</h2>
                 <div class="services_box">
                     <div class="services_block">
-                        <h3 class="services_subtitle">Метрология<img class="services_img"></h3>
+                        <h3 class="services_subtitle"><a name="1"></a>Метрология<img class="services_img"></h3>
                         <p class="services_text services_text-margin">Метрологическая поверка бытовых и промышленных
                             газовых счетчиков,
                             поверка счетчиков воды осуществляется с использованием самого современного оборудования
@@ -174,7 +172,7 @@
                     </div>
                     <div class="services_block services_block-flex">
                         <div class="services_block-box">
-                            <h3 class="services_subtitle">Аттестация коммерческих узлов учета<img class="services_img">
+                            <h3 class="services_subtitle"><a name="2"></a>Аттестация коммерческих узлов учета<img class="services_img">
                             </h3>
                             <p class="services_text">Аттестация узлов учета газа на соответствие современным нормативным
                                 требованиям осуществляется исключительно аккредитованной организацией. В ходе аттестации
@@ -188,7 +186,7 @@
                     </div>
                     <div class="services_block services_block-flex">
                         <div class="services_block-box">
-                            <h3 class="services_subtitle">Проектирование инженерных систем<img class="services_img">
+                            <h3 class="services_subtitle"><a name="3"></a>Проектирование инженерных систем<img class="services_img">
                             </h3>
                             <p class="services_text">Услуги по проектированию новых газопроводов. Проектирование систем
                                 водоснабжения и водоотведения. Полный цикл от начального этапа сбора информации о тех
@@ -200,7 +198,7 @@
                     </div>
                     <div class="services_block services_block-flex">
                         <div class="services_block-box">
-                            <h3 class="services_subtitle">Газификация и реконструкция<img class="services_img"></h3>
+                            <h3 class="services_subtitle"><a name="4"></a>Газификация и реконструкция<img class="services_img"></h3>
                             <p class="services_text">Строительство газопроводов. От реконструкции газопровода в частном
                                 дома до строительства межпоселкового газопровода. Высочайшее качество в сжатые сроки.
                                 Весь комплекс работ в соответствии с техническими условиями.</p>
@@ -211,7 +209,7 @@
                     </div>
                     <div class="services_block services_block-flex">
                         <div class="services_block-box">
-                            <h3 class="services_subtitle">Услуги по тех обслуживанию общедомового газового
+                            <h3 class="services_subtitle"><a name="5"></a>Услуги по тех обслуживанию общедомового газового
                                 оборудования<img class="services_img"></h3>
                             <p class="services_text">Для безопасной и безперебойной работы газового оборудования
                                 необходимо периодически осматривать и настраивать все компоненты системы. Мы предлагаем

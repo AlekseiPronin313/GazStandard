@@ -6,17 +6,29 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
-.products_block:hover {
-    cursor: pointer;
+.products_block:hover:after  {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
     border-radius: 16px;
-    color: #fff;
-    background-color: rgba(23, 121, 192,.75);
+    background: rgba(23, 121, 192,.75);
+    z-index: 2;
 }
 
 .products_block:hover .products_text {
     color: #fff;
+    z-index: 3;
+}
+
+.products_block:hover .products_price {
+    color: #fff;
+    z-index: 3;
 }
 
 .products_block:hover .products_button {

@@ -8,4 +8,5 @@
   margin: 0 auto;
   text-align: center;
   top: 228px;
+  z-index: 2;
 }
