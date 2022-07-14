@@ -11,6 +11,10 @@
     margin: 108px 78px 0; 
     cursor: pointer;
     position: absolute;
-    opacity: 0;
+    display: none;
     z-index: 3;
+}
+
+.products_button:hover {
+    opacity: 0.9;
 }

@@ -32,5 +32,5 @@
 }
 
 .products_block:hover .products_button {
-    opacity: 1;
+    display: block;
 }
