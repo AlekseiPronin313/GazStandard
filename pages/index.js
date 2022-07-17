@@ -3,6 +3,12 @@ const openPopup = document.querySelectorAll(".products_button");
 const closePopup = document.querySelector("#close-popup");
 const popup = document.querySelector(".popup");
 const myInput = document.querySelector("#my-input");
+const popupImg = document.querySelector("#img");
+const productsImg = document.querySelectorAll(".products_img-png");
+const productsText = document.querySelectorAll(".products_text");
+const productsPrice = document.querySelectorAll(".products_price");
+const popupTitle = document.querySelector("#title");
+const popupText = document.querySelector("#price");
 
 function stepper(btn) {
   let id = btn.getAttribute("id");
@@ -21,6 +27,16 @@ function stepper(btn) {
 }
 
 function open() {
+  productsImg.forEach(function (img, altt) {
+    popupImg.src = img.src;
+    popupImg.alt = altt.alt;
+  });
+  productsText.forEach(function (text) {
+    popupTitle.textContent = text.textContent;
+  });
+  productsPrice.forEach(function (text) {
+    popupText.textContent = text.textContent;
+  });
   popup.classList.add("popup__opened");
   document.addEventListener("keydown", function escClose(evt) {
     if (evt.key === "Escape") {
@@ -33,7 +49,6 @@ function open() {
 function close() {
   popup.classList.remove("popup__opened");
 }
-
 openPopup.forEach((botton) => {
   botton.addEventListener("click", open);
 });
