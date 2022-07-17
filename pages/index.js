@@ -2,6 +2,23 @@ let center = [54.616998, 39.730248];
 const openPopup = document.querySelectorAll(".products_button");
 const closePopup = document.querySelector("#close-popup");
 const popup = document.querySelector(".popup");
+const myInput = document.querySelector("#my-input");
+
+function stepper(btn) {
+  let id = btn.getAttribute("id");
+  let min = myInput.getAttribute("min");
+  let max = myInput.getAttribute("max");
+  let step = myInput.getAttribute("step");
+  let val = myInput.getAttribute("value");
+
+  let calcStep = id == "plus" ? step * 1 : step * -1;
+
+  let newValue = parseInt(val) + calcStep;
+
+  if (newValue >= min && newValue <= max) {
+    myInput.setAttribute("value", newValue);
+  }
+}
 
 function open() {
   popup.classList.add("popup__opened");

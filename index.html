@@ -82,7 +82,7 @@
                 </div>
             </div>
 
-            <button class="header_batton" type="button">Заказать консультацию</button>
+            <a class="header_batton" href="#6">Заказать консультацию</a>
         </header>
         <main class="main">
             <section class="advantages">
@@ -335,7 +335,7 @@
                 </div>
             </section>
             <section class="form">
-                <h3 class="form_title">Отправить заявку</h3>
+                <h3 class="form_title"><a name="6"></a>Отправить заявку</h3>
                 <p class="form_text">и мы проведем для вас <span class="form_text-span">бесплатную</span> личную
                     консультацию</p>
                 <form class="form_form">
@@ -376,7 +376,15 @@
                 <h3 class="popup__title">Заказать</h3>
                 <img class="popup__img" src="./images/products/image1.png" alt="Картинка">
                 <p class="popup__text">Диафрагменный счетчик газа Вектор Правый Век.П</p>
-                <form><input class="popup__number" type="number" min="0" value="1"></form>
+                <form class="popup__number-form" onsubmit="return false;">
+                    <input id="my-input" class="popup__number" type="number" min="0" max="10" step="1" value="1" readonly>
+                    <div class="popup__number-box">
+                        <button id="plus" class="popup__number-button" onclick="stepper(this)"><img class="popup__number-button-img"
+                                src="./images/sort_up.svg"></button>
+                        <button id="minus" class="popup__number-button" onclick="stepper(this)"><img class="popup__number-button-img"
+                                src="./images/sort_down.svg"></button>
+                    </div>
+                </form>
                 <p class="popup__text-price">3360 ₽</p>
                 <form class="popup__form">
                     <input class="popup__input" name="name" placeholder="Ваше имя" minlength="2" maxlength="200">

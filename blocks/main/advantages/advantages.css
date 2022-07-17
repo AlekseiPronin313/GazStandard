@@ -1,5 +1,6 @@
 .advantages {
     max-width: 1440px;
+    min-height: 750px;
     display: grid;
     justify-items: center;
     margin: 0 auto;

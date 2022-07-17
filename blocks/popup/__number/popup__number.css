@@ -1,16 +1,18 @@
 .popup__number {
-  max-width: 100px;
-  height: 38px;
+  width: 100px;
+  height: 100%;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 8px;
-  padding: 0;
+  padding: 0 0 0 12px;
+  position: absolute;
 }
 
-.popup__number::-webkit-inner-spin-button {
-  opacity: 1;
+input[type='number'] {
+  -moz-appearance:textfield;
 }
 
-.popup__number::-webkit-inner-spin-button {
-    margin-right: 15px;
-    height: 30px;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

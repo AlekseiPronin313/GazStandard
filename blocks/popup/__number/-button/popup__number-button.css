@@ -1,0 +1,11 @@
+.popup__number-button {
+    width: 6px;
+    height: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}

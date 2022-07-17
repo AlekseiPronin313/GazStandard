@@ -1,6 +1,6 @@
 .advantages_text {
-    width: 220px;
-    max-height: 66px;
+    max-width: 220px;
+    max-height: 100%;
     margin: 0;
     font-weight: 700;
     font-size: 16px;
