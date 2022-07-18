@@ -1,14 +1,115 @@
+const initialCards = [
+  {
+    name: "Диафрагменный счетчик газа Вектор Правый Век.П",
+    link: "./images/products/image4.png",
+    price: "3360 ₽",
+  },
+  {
+    name: "Диафрагменный счетчик газа Вектор Правый Век.П",
+    link: "./images/products/image3.png",
+    price: "3360 ₽",
+  },
+  {
+    name: "Диафрагменный счетчик газа Вектор Правый Век.П",
+    link: "./images/products/image2.png",
+    price: "3360 ₽",
+  },
+  {
+    name: "Диафрагменный счетчик газа Вектор Правый Век.П",
+    link: "./images/products/image1.png",
+    price: "3360 ₽",
+  },
+  {
+    name: "Диафрагменный счетчик газа Вектор Правый Век.П",
+    link: "./images/products/image1.png",
+    price: "3360 ₽",
+  },
+  {
+    name: "Диафрагменный счетчик газа Вектор Правый Век.П",
+    link: "./images/products/image2.png",
+    price: "3360 ₽",
+  },
+  {
+    name: "Диафрагменный счетчик газа Вектор Правый Век.П",
+    link: "./images/products/image3.png",
+    price: "3360 ₽",
+  },
+  {
+    name: "Диафрагменный счетчик газа Вектор Правый Век.П",
+    link: "./images/products/image4.png",
+    price: "3360 ₽",
+  },
+  {
+    name: "Диафрагменный счетчик газа Вектор Правый Век.П",
+    link: "./images/products/image3.png",
+    price: "3360 ₽",
+  },
+  {
+    name: "Диафрагменный счетчик газа Вектор Правый Век.П",
+    link: "./images/products/image2.png",
+    price: "3360 ₽",
+  },
+  {
+    name: "Диафрагменный счетчик газа Вектор Правый Век.П",
+    link: "./images/products/image1.png",
+    price: "3360 ₽",
+  },
+  {
+    name: "Диафрагменный счетчик газа Вектор Правый Век.П",
+    link: "./images/products/image4.png",
+    price: "3360 ₽",
+  },
+];
+
 let center = [54.616998, 39.730248];
-const openPopup = document.querySelectorAll(".products_button");
+const openPopup = document.querySelector(".products_button");
 const closePopup = document.querySelector("#close-popup");
 const popup = document.querySelector(".popup");
 const myInput = document.querySelector("#my-input");
 const popupImg = document.querySelector("#img");
-const productsImg = document.querySelectorAll(".products_img-png");
-const productsText = document.querySelectorAll(".products_text");
-const productsPrice = document.querySelectorAll(".products_price");
 const popupTitle = document.querySelector("#title");
 const popupText = document.querySelector("#price");
+const elements = document.querySelector(".products_grid");
+const template = document.querySelector(".template");
+
+function render() {
+  const html = initialCards.map((item) => {
+    return getItems(item);
+  });
+  elements.append(...html);
+}
+
+function getItems(item) {
+  const newItem = template.content.cloneNode(true);
+  const productsImg = newItem.querySelector(".products_img-png");
+  const productText = newItem.querySelector(".products_text");
+  const productsPrice = newItem.querySelector(".products_price");
+  const openPopup = newItem.querySelector(".products_button");
+  productText.textContent = item.name;
+  productsPrice.textContent = item.price;
+  productsImg.src = item.link;
+  productsImg.alt = item.name;
+
+  openPopup.addEventListener("click", () => {
+    popupTitle.textContent = productText.textContent
+    popupText.textContent = productsPrice.textContent
+    popupImg.src = productsImg.src
+    open()
+  });
+  return newItem;
+}
+
+function addCards(evt) {
+  evt.preventDefault();
+  const initialCards = {
+    link: popupImg.value,
+    name: popupTitle.value,
+    price: popupText.value,
+  };
+  const newCard = getItems(initialCards);
+  elements.prepend(newCard);
+  close();
+}
 
 function stepper(btn) {
   let id = btn.getAttribute("id");
@@ -27,16 +128,6 @@ function stepper(btn) {
 }
 
 function open() {
-  productsImg.forEach(function (img, altt) {
-    popupImg.src = img.src;
-    popupImg.alt = altt.alt;
-  });
-  productsText.forEach(function (text) {
-    popupTitle.textContent = text.textContent;
-  });
-  productsPrice.forEach(function (text) {
-    popupText.textContent = text.textContent;
-  });
   popup.classList.add("popup__opened");
   document.addEventListener("keydown", function escClose(evt) {
     if (evt.key === "Escape") {
@@ -49,9 +140,7 @@ function open() {
 function close() {
   popup.classList.remove("popup__opened");
 }
-openPopup.forEach((botton) => {
-  botton.addEventListener("click", open);
-});
+
 closePopup.addEventListener("click", close);
 
 document.addEventListener("click", (evt) => {
@@ -94,3 +183,4 @@ let swiper2 = new Swiper(".mySwiper2", {
     swiper: swiper,
   },
 });
+render();
