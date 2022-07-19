@@ -1,6 +1,6 @@
 .mySwiper {
   max-width: 1120px;
-  max-height: 96px;
+  max-height: 94px;
   position: absolute;
   bottom: 10px;
   box-sizing: border-box;
@@ -21,9 +21,22 @@
   left: 0;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 16px;
+  cursor: pointer;
 }
 
 .mySwiper .swiper-slide-thumb-active::before {
   content: "";
   background-color: rgba(23, 121, 192, 0.8);
+}
+
+@media screen and (max-width: 1200px) and (min-width: 960px) {
+  .mySwiper {
+    max-width: 896px;
+  }
+}
+
+@media screen and (max-width: 958px) and (min-width: 640px) {
+  .mySwiper {
+    width: 100%;
+  }
 }

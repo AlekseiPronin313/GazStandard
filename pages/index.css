@@ -98,3 +98,5 @@
 @import url(../blocks/popup/__number/-button/-img/popup__number-button-img.css);
 @import url(../blocks/popup/__number-form/popup__number-form.css);
 @import url(../blocks/popup/__number-box/popup__number-box.css);
+@import url(../blocks/header/swiper/__box/swiper__box.css);
+@import url(../blocks/header/swiper/__png/swiper__png.css);

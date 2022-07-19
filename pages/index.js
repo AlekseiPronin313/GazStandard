@@ -91,10 +91,11 @@ function getItems(item) {
   productsImg.alt = item.name;
 
   openPopup.addEventListener("click", () => {
-    popupTitle.textContent = productText.textContent
-    popupText.textContent = productsPrice.textContent
-    popupImg.src = productsImg.src
-    open()
+    popupTitle.textContent = productText.textContent;
+    popupText.textContent = productsPrice.textContent;
+    popupImg.src = productsImg.src;
+    popupImg.alt = productsImg.alt;
+    open();
   });
   return newItem;
 }
@@ -172,10 +173,24 @@ function init() {
 ymaps.ready(init);
 
 let swiper = new Swiper(".mySwiper", {
-  spaceBetween: 10,
-  slidesPerView: 5,
   freeMode: true,
   watchSlidesProgress: true,
+  breakpoints: {
+    960: {
+    slidesPerView: 5,
+    spaceBetween: 10
+    },
+    640: {
+      slidesPerView: 4,
+      spaceBetween: 8.2
+    },
+    480: {
+      slidesPerView: 3
+    },
+    320: {
+      slidesPerView: 2
+    }
+  },
 });
 let swiper2 = new Swiper(".mySwiper2", {
   spaceBetween: 10,
@@ -183,4 +198,5 @@ let swiper2 = new Swiper(".mySwiper2", {
     swiper: swiper,
   },
 });
+
 render();

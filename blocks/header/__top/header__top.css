@@ -1,8 +1,35 @@
 .header__top {
-  max-width: 1120px;
+  width: 1120px;
   max-height: 51px;
   display: flex;
+  justify-content: space-between;
   z-index: 2;
   margin-top: 29px;
   position: absolute;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 960px) {
+  .header__top {
+    width: 896px;
+  }
+}
+
+@media screen and (max-width: 959px) and (min-width: 641px) {
+  .header__top {
+    width: 607px;
+  }
+}
+
+@media screen and (max-width: 640px) and (min-width: 481px) {
+  .header__top {
+    width: 448px;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .header__top {
+    width: 287px;
+    flex-direction: column;
+    align-items: center;
+  }
 }

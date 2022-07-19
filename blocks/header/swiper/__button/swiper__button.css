@@ -1,5 +1,4 @@
 .swiper__button {
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +9,7 @@
     border: 2px solid #fff;
     border-radius: 16px;
     cursor: pointer;
-    bottom: 248px;
     text-decoration: none;
+    margin-top: 58px;
     z-index: 2;
 }

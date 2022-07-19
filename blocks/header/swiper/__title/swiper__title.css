@@ -1,12 +1,26 @@
 .swiper__title {
-  max-width: 100%;
-  position: absolute;
+  width: 900px;
+  min-height: 30px;
   color: #ffffff;
   font-weight: 500;
   font-size: 60px;
   line-height: 140%;
   margin: 0 auto;
   text-align: center;
-  top: 228px;
   z-index: 2;
+}
+
+@media screen and (max-width: 959px) and (min-width: 481px) {
+  .swiper__title {
+    width: 453px;
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .swiper__title {
+    width: 278px;
+    font-weight: 600;
+    font-size: 34px;
+  }
 }

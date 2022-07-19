@@ -1,0 +1,10 @@
+.swiper__png {
+    width: 1440px;
+    object-fit: fill;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 320px) {
+    .swiper__png {
+        object-fit: cover;
+    }
+}
