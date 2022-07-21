@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1200px) and (min-width: 961px) {
   .info_text {
-    width: 390px;
+    max-width: 390px;
     max-height: 481px;
     margin: 0 32px 0 -210px;
   }
