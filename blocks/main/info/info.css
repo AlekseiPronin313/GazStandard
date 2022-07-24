@@ -1,5 +1,5 @@
 .info {
-    width: 100%;
+    max-width: 1440px;
     min-height: 667px;
     background: #F7F7F7;
     display: flex;

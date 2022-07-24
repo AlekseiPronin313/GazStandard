@@ -8,3 +8,36 @@
     border-radius: 16px;
     margin-right: 35px;
 }
+
+.services_card:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 960px) {
+    .services_card {
+        max-width: 247px;
+    }
+}
+
+@media screen and (max-width: 960px) and (min-width: 320px) {
+    .services_card {
+        max-width: 511px;
+        margin-bottom: 8px;
+    }
+
+    .services_card:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 640px) and (min-width: 481px) {
+    .services_card {
+        max-width: 356px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .services_card {
+        max-width: 239px;
+    }
+}

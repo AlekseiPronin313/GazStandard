@@ -5,3 +5,21 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 960px) and (min-width: 641px) {
+    .services_svg {
+        margin-right: -39px;
+    }
+}
+
+@media screen and (max-width: 640px) and (min-width: 481px) {
+    .services_svg {
+        margin-right: -28px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .services_svg {
+        margin-right: -16px;
+    }
+}

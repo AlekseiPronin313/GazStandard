@@ -1,5 +1,5 @@
 .services_img {
-    width: 32px;
+    min-width: 32px;
     height: 32px;
     background-image: url(../../../../images/services/Rectangle.svg);
     background-color: #FF9915;
@@ -8,4 +8,13 @@
     border-radius: 36px;
     margin-left: 16px;
     margin-bottom: -8px;
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .services_img {
+        margin: 0;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
 }

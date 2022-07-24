@@ -1,3 +1,11 @@
-.services_text-margin {
-    margin-bottom: 36px;
+@media screen and (min-width: 961px) {
+    .services_text-margin {
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (max-width: 640px) and (min-width: 320px) {
+    .services_text-margin {
+        margin-bottom: 26px;
+    }
 }

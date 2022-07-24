@@ -1,5 +1,13 @@
 .services_block-box {
-    height: 100%;
     max-width: 596px;
-    margin-right: 44px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 961px) {
+    .services_block-box {
+        max-width: 512px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 961px) {
+    
 }

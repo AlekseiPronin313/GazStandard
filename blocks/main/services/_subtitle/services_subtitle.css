@@ -4,3 +4,22 @@
     font-size: 24px;
     line-height: 140%;
 }
+
+@media screen and (max-width: 1200px) and (min-width: 960px) {
+    .services_subtitle {
+        width: 527px;
+    }
+}
+
+@media screen and (max-width: 640px) and (min-width: 481px) {
+    .services_subtitle {
+        width: 367px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .services_subtitle {
+        width: 100%;
+        font-size: 20px;
+    }
+}
