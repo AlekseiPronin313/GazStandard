@@ -3,7 +3,7 @@
     align-items: flex-end;
 }
 
-@media screen and (max-width: 959px) and (min-width: 481px) {
+@media screen and (max-width: 959px) and (min-width: 480px) {
     .header_box__logo {
         width: 177px;
         height: 105px;

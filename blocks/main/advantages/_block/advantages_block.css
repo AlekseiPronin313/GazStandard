@@ -28,13 +28,13 @@
 .advantages_block:nth-last-of-type(7) {
   border-right: none;
 }
-@media screen and (max-width: 1200px) and (min-width: 961px) {
+@media screen and (max-width: 1200px) and (min-width: 960px) {
   .advantages_block {
     width: 306px;
   }
 }
 
-@media screen and (max-width: 960px) and (min-width: 320px) {
+@media screen and (max-width: 959px) and (min-width: 320px) {
   .advantages_block {
     width: 200px;
     height: 225px;
@@ -43,7 +43,7 @@
   }
 }
 
-@media screen and (max-width: 640px) and (min-width: 481px) {
+@media screen and (max-width: 639px) and (min-width: 480px) {
   .advantages_block {
     width: 239px;
   }
@@ -74,7 +74,7 @@
   }
 }
 
-@media screen and (max-width: 480px) and (min-width: 320px) {
+@media screen and (max-width: 479px) and (min-width: 320px) {
     .advantages_block {
         width: 287px;
         border-right: none;

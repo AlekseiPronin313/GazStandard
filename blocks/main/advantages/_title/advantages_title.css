@@ -7,13 +7,13 @@
     line-height: 140%;
 }
 
-@media screen and (max-width: 640px) and (min-width: 481px) {
+@media screen and (max-width: 639px) and (min-width: 480px) {
     .advantages_title {
         margin-bottom: 31px;
     }
 }
 
-@media screen and (max-width: 480px) and (min-width: 320px) {
+@media screen and (max-width: 479px) and (min-width: 320px) {
     .advantages_title {
         font-size: 34px;
         margin-bottom: 50px;

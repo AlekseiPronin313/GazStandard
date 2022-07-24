@@ -2,7 +2,7 @@
     margin-left: 77px;
 }
 
-@media screen and (max-width: 960px) and (min-width: 319px) {
+@media screen and (max-width: 959px) and (min-width: 320px) {
     .services_picture-margin {
         margin-left: 0;
     }
