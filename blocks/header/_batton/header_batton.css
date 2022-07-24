@@ -1,7 +1,7 @@
 .header_batton {
     width: 256px;
     height: 48px;
-    position: absolute;
+    position: fixed;
     background: #1779C0;
     border-radius: 8px;
     border: none;
@@ -11,10 +11,11 @@
     line-height: 100%;
     z-index: 3;
     padding: 0;
-    bottom: -14px;
+    bottom: 10px;
     cursor: pointer;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 5;
 }

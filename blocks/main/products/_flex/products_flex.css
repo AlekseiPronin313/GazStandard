@@ -1,0 +1,13 @@
+.products_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+@media screen and (max-width: 959px) and (min-width: 480px) {
+    .products_flex {
+        gap: 16px;
+    }
+}

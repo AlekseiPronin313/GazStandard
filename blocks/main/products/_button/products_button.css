@@ -8,13 +8,20 @@
     background: #fff;
     border-radius: 8px;
     border: none;
-    margin: 108px 78px 0; 
+    margin: 108px 0 0; 
     cursor: pointer;
     position: absolute;
+    left: 32%;
     display: none;
     z-index: 3;
 }
 
 .products_button:hover {
     opacity: 0.9;
+}
+
+@media screen and (max-width: 959px) and (min-width: 320px) {
+    .products_button {
+        left: 28%;
+    }
 }

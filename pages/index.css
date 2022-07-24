@@ -21,7 +21,7 @@
 @import url(../blocks/main/advantages/_img/advantages_img.css);
 @import url(../blocks/main/advantages/_text/advantages_text.css);
 @import url(../blocks/main/advantages/_title/advantages_title.css);
-@import url(../blocks/main/advantages/_grid/advantages_grid.css);
+@import url(../blocks/main/advantages/_flex/advantages_flex.css);
 @import url(../blocks/main/info/info.css);
 @import url(../blocks/main/info/_img/info_img.css);
 @import url(../blocks/main/info/_subtitle/info_subtitle.css);
@@ -49,7 +49,7 @@
 @import url(../blocks/main/services/_picture/-margin/services_picture-margin.css);
 @import url(../blocks/main/products/products.css);
 @import url(../blocks/main/products/_title/products_title.css);
-@import url(../blocks/main/products/_grid/products_grid.css);
+@import url(../blocks/main/products/_flex/products_flex.css);
 @import url(../blocks/main/products/_block/products_block.css);
 @import url(../blocks/main/products/_text/products_text.css);
 @import url(../blocks/main/products/_price/products_price.css);

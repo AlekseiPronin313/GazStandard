@@ -69,7 +69,7 @@ const myInput = document.querySelector("#my-input");
 const popupImg = document.querySelector("#img");
 const popupTitle = document.querySelector("#title");
 const popupText = document.querySelector("#price");
-const elements = document.querySelector(".products_grid");
+const elements = document.querySelector(".products_flex");
 const template = document.querySelector(".template");
 
 function render() {

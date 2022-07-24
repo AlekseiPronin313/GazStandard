@@ -1,6 +1,0 @@
-.products_grid {
-    max-width: 1128px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
-    gap: 32px;
-}
