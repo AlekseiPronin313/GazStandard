@@ -5,6 +5,7 @@
   border-radius: 8px;
   padding: 0 0 0 12px;
   position: absolute;
+  box-sizing:border-box;
 }
 
 input[type='number'] {

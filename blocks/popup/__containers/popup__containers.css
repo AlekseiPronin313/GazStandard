@@ -4,4 +4,18 @@
   border-radius: 16px;
   padding: 32px;
   z-index: 2;
+  box-sizing:border-box;
+}
+
+@media screen and (max-width: 639px) and (min-width: 480px) {
+  .popup__containers {
+    max-width: 408px;
+  }
+}
+
+@media screen and (max-width: 479px) and (min-width: 320px) {
+  .popup__containers {
+    max-width: 288px;
+    padding: 16px;
+  }
 }
