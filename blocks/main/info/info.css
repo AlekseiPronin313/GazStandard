@@ -1,18 +1,11 @@
 .info {
-    max-width: 1440px;
+    width: 100%;
     min-height: 667px;
     background: #F7F7F7;
     display: flex;
     overflow: hidden;
     align-items: center;
     margin: 0 auto;
-}
-
-@media screen and (max-width: 1200px) and (min-width: 960px) {
-    .info {
-        max-width: 960px;
-
-    }
 }
 
 @media screen and (max-width: 959px) and (min-width: 320px) {

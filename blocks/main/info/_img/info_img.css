@@ -1,7 +1,7 @@
 .info_img {
   width: 919px;
   height: 361px;
-  margin: 0 0 0 39px;
+  margin: 0;
   object-fit: contain;
   border: none;
   z-index: 1;
