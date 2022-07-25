@@ -5,3 +5,27 @@
 .foooter_logo:first-of-type {
     margin: 0;
 }
+
+.foooter_logo:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 959px) and (min-width: 480px) {
+    .foooter_logo {
+        margin: 0;
+    }
+
+    .foooter_logo:first-of-type {
+        margin-right: 36px;
+    }
+
+    .foooter_logo:last-of-type {
+        margin-left: 26px;
+    }
+}
+
+@media screen and (max-width: 479px) and (min-width: 320px) {
+    .foooter_logo {
+        margin: 20px 33px 0 0;
+    }
+}

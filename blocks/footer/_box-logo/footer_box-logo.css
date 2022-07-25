@@ -1,3 +1,9 @@
 .footer_box-logo {
     width: 206px;
 }
+
+@media screen and (max-width: 959px) and (min-width: 480px) {
+    .footer_box-logo {
+        width: 100%;
+    }
+}

@@ -100,3 +100,6 @@
 @import url(../blocks/popup/__number-box/popup__number-box.css);
 @import url(../blocks/header/swiper/__box/swiper__box.css);
 @import url(../blocks/header/swiper/__png/swiper__png.css);
+@import url(../blocks/footer/_text/-email/footer_text-email.css);
+@import url(../blocks/footer/__box/footer__box.css);
+@import url(../blocks/footer/__tel/footer__tel.css);

@@ -1,0 +1,13 @@
+.footer__box {
+    display: flex;
+}
+
+@media screen and (max-width: 479px) and (min-width: 320px) {
+    .footer__box:first-of-type {
+        align-items: flex-start;
+    }
+
+    .footer_icon:nth-of-type(1) {
+        margin-top: 3px;
+    }
+}

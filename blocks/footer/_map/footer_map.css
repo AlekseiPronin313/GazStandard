@@ -3,3 +3,27 @@
     height: 520px;
     background: #222;
 }
+
+@media screen and (max-width: 1200px) and (min-width: 960px) {
+    .footer_map {
+        width: 560px;
+    }
+}
+
+@media screen and (max-width: 959px) and (min-width: 640px) {
+    .footer_map {
+        width: 640px;
+    }
+}
+
+@media screen and (max-width: 639px) and (min-width: 480px) {
+    .footer_map {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 479px) and (min-width: 320px) {
+    .footer_map {
+        width: 320px;
+    }
+}
