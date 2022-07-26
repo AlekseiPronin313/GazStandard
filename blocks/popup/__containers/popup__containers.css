@@ -9,6 +9,10 @@
   box-sizing:border-box;
 }
 
+.popup__containers::-webkit-scrollbar {
+  width: 0;
+}
+
 @media screen and (max-width: 639px) and (min-width: 480px) {
   .popup__containers {
     max-width: 408px;
