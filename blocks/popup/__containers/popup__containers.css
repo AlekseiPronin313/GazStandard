@@ -1,6 +1,8 @@
 .popup__containers {
   max-width: 544px;
+  height: 100%;
   background: #ffffff;
+  overflow: auto;
   border-radius: 16px;
   padding: 32px;
   z-index: 2;

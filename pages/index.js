@@ -71,6 +71,7 @@ const popupTitle = document.querySelector("#title");
 const popupText = document.querySelector("#price");
 const elements = document.querySelector(".products_flex");
 const template = document.querySelector(".template");
+const body = document.querySelector('.body')
 
 function render() {
   const html = initialCards.map((item) => {
@@ -130,6 +131,7 @@ function stepper(btn) {
 
 function open() {
   popup.classList.add("popup__opened");
+  body.classList.add("body__lock")
   document.addEventListener("keydown", function escClose(evt) {
     if (evt.key === "Escape") {
       close();
@@ -140,6 +142,7 @@ function open() {
 
 function close() {
   popup.classList.remove("popup__opened");
+  body.classList.remove("body__lock")
 }
 
 closePopup.addEventListener("click", close);
